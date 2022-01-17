@@ -8,7 +8,7 @@ const mobile=document.getElementById('phoneNumber');
 form.addEventListener('submit',(event)=>{
     event.preventDefault();
     validation();
-    location.reload();
+    
 });
 
 
@@ -88,7 +88,7 @@ const validation =()=>{
         
     }
 
-
+location.reload();
 
 }
 
