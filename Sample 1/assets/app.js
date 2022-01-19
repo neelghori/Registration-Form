@@ -74,7 +74,7 @@ const validation =()=>{
     }
 
     //validating mobile input
-    const mobileRegExp=/^[789][0-9]{9}$/;
+    const mobileRegExp=/^[0-9]{10}$/;
     const mobileResult=mobileRegExp.test(mobileVal);
 
     if(mobileVal === ''){
